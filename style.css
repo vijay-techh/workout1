@@ -6,6 +6,9 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: large;
+    text-align: center;
+        border-radius: 25px;
+
 }
 .two{
     background-color: chocolate;
@@ -14,16 +17,16 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: large;
+        border-radius: 25px;
+        text-align: center;
+
 }
 .buttons{
     display: flex ;
     gap: 10px;
 }
-@media screen and (max-width:768px) {
-    style{
-        .buttons{
-    display: flex ;
-    gap: 100px;
-        }
-}
+@media  (max-width:600x) {
+    body{
+        background-color: black;
+    }
 }
