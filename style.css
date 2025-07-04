@@ -7,3 +7,23 @@
     color: rgb(0, 0, 0);
     font-size: large;
 }
+.two{
+    background-color: chocolate;
+    height: 100px;
+    width: 300px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+.buttons{
+    display: flex ;
+    gap: 10px;
+}
+@media screen and (max-width:768px) {
+    style{
+        .buttons{
+    display: flex ;
+    gap: 100px;
+        }
+}
+}
