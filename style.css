@@ -8,6 +8,10 @@
     font-size: large;
     text-align: center;
         border-radius: 25px;
+        a{
+            text-decoration: none;
+            
+        }
 
 }
 .two{
@@ -26,7 +30,25 @@
     gap: 10px;
 }
 @media  (max-width:600px) {
-    body{
-        background-color: black;
+    h1{
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 25px;
     }
-}
+    .one{
+        height: 50px;
+        width: 200px;
+        font-size: 10px;
+
+    }
+    .two{
+        
+        height: 50px;
+        width: 200px;
+        font-size: 10px;
+        
+
+    }
+    }
+
