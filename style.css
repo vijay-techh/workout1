@@ -45,6 +45,7 @@
         height: 100px;
         width: 200px;
         font-size: 15px;
+        border-radius: 25px;
 
     }
     .two{
@@ -52,13 +53,16 @@
         height: 100px;
         width: 200px;
         font-size: 15px;
+        border-radius: 25px;
         
         
 
     }
     img{
-        height: 60px;
-        width: 60px;
+        height: 300px;
+        width: 300px;
+        position: relative;
+        justify-content: center;
     }
     a{
         text-decoration: none;
